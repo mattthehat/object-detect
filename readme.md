@@ -6,7 +6,7 @@ A web application that provides object detection capabilities using computer vis
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/object-detection.git
+git clone git@github.com:mattthehat/object-detect.git
 
 # Navigate to the project directory
 cd object-detection
