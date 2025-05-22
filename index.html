@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + TS</title>
+    </head>
+    <body>
+        <div class="spinner"></div>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" name="image" id="image" accept="image/*" />
+            <button>Add Image</button>
+        </form>
+        <div class="container">
+            <ul class="images">
+                <li>
+                    <img src="/assets/1.jpg" alt="Image 1" />
+                </li>
+                <li>
+                    <img src="/assets/2.jpg" alt="Image 2" />
+                </li>
+                <li>
+                    <img src="/assets/3.jpg" alt="Image 3" />
+                </li>
+            </ul>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
